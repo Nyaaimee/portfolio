@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+body{
+font-family: 'Roboto', sans-serif;
+line-height: 1.5rem;
+}
+#navbar{
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+    background: #0000ff;
+    }
+    #navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    }
+    #navbar .container .logo a{
+    color:#fff;
+    }
+    #navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    }
+    #navbar .menu li a{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0.45rem;
+    margin: 0 0.25rem;
+    color: #c0c0c0;
+    }
+    #navbar .menu li a:hover{
+    color: #fff;
+}
+#home{
+    display: flex;
+    background: url("/images/showcase.jpg") no-repeat center;
+    height: 100vh;
+    min-height: 500px;
+    }
+    #home .container{
+    margin: auto 0px auto 2rem;
+    }
+    
+    #home .home-content .text-1{
+    font-size: 29px;
+    margin: 1.2rem;
+    }
+    #home .home-content .text-2{
+    font-size: 65px;
+    font-weight: 500;
+    margin: 1rem;
+    }
+    #home .home-content .text-3{
+    font-size: 32px;
+    margin: 1.2rem;
+    }
+    #home .home-content .text-3 span{
+    color: #0000ff;
+    font-weight: 600;
+    }
+    #home .btn{
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+    #home .image{
+        background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsk%2Fsearch%2Fimages%3Fk%3Dblue%2Blinear%2Bgradient%2Bbackground&psig=AOvVaw0qRFhcgC3WIsCtY1Ef-6Bq&ust=1649924448082000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCOD4y-HNkPcCFQAAAAAdAAAAABAG);
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        margin-top: 2px;
+    }
+
+
+
+.portfolio .container h2{
+    margin-top: .5rem;
+    }
+    .projects{
+    display: flex;
+    flex-wrap: wrap;
+    padding: .5rem;
+    }
+    .project{
+    flex: 1;
+    padding: 1.5rem;
+    }
+    .img-container img{
+    max-width: 450px;
+    }
+    .project-content{
+    max-width: 450px;
+    
+    }
+    .stack-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .2rem;
+    margin-right: 1rem;
+    }
+    
+    .stack-container li {
+    list-style: none;
+    
+    }
+    
+    .stack-container li a {
+    color: #000;
+    font-weight: 600;
+}
+    
+    
+#about p{
+    padding: .5rem;
+    margin-bottom: 0.5rem;
+    }
+    #about .btn{
+    margin-left: .5rem;
+    }
+    .about-content {
+    display: flex;
+    padding: 1rem;
+    }
+    .about-content .column {
+    flex: 1;
+    padding: 1rem;
+    }
+    
+    .pro-languages{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    }
+    .pro-languages .language {
+    flex: 1;
+    text-align: center;
+    padding: 1rem ;
+    margin: 1.32rem;
+    }
+    
+    .pro-languages .language i {
+    background: blue;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    margin-top: -1rem;
+    }
+    
+    .pro-languages .language h3 {
+    margin-bottom: 2rem;
+}
+.contact-content {
+    display: flex;
+    padding: 1rem;
+    }
+    
+    .contact-content .column {
+    flex: 1;
+    padding: 1rem;
+    }
+    
+    .contact-text{
+    margin-top: 1rem;
+    }
+    .row{
+    display: flex;
+    padding: .5rem;
+    }
+    
+    .row i{
+    padding: 1rem;
+    color: #0000ff;
+    }
+    
+    .row .info {
+    margin-top: .8rem;
+    }
+    
+    .contact-form .form-group {
+    margin: 0.75rem;
+    }
+    
+    .contact-form label {
+    display: block;
+    }
+    
+    .contact-form .field,
+    .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: .2rem;
+    }
+    
+    .contact-form textarea{
+    height: 8rem;
+    }
+    
+    .contact-content .column .contact-form .btn{
+    margin-left: .8rem;
+}
+footer{
+    background: blue;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    }
